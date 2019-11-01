@@ -4,3 +4,5 @@ var svg = d3.select("body").append("svg")
 d3.csv("NSFC01.csv",function(error,data){
     console.log(data);
 })
+var s={a:"ds",b:"sfa"};
+console.log(s);
