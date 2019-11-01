@@ -3,5 +3,5 @@ var svg = d3.select("body").append("svg")
           .attr("width","100%");
 var data1;
 d3.csv("NSFC01.csv",function(error,data){
-    console.log(data);
+    data1=data;
 })
